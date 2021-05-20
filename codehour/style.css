@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #EEEFF1;
+}
+
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 58px 80px 0 80px;
+	text-decoration: none;
+}
+
+
+header ul li a {
+	color: #000;
+	text-decoration: none;
+	align-items: center;
+	padding: 58px 80px 0 80px;
+	flex-direction: row;
+}
+ul li{
+	display: inline-block;
+}
+
+.wd{
+	position: absolute;
+	width: 96px;
+	height: 60px;
+	left: 402px;
+	top: 50px;
+	font-family: Revalia;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 60px;
+	text-align: center;
+	color: #34547A;
+	text-decoration: none;
+}
